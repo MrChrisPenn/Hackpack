@@ -1,0 +1,83 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mcimport" id=")rW?]%zEl9JevRB;t3;S" x="183" y="65">
+    <next>
+      <block type="import_block" id=";x^Koos}EzjwwcS_F+@S">
+        <next>
+          <block type="random" id="2O}N~Fv..^3NN.wBORep">
+            <next>
+              <block type="time" id="~Jj~[q5*XsX-+sN5@ub|">
+                <next>
+                  <block type="import_sonic" id="zv5EArYrU_HOx(v,d+?=">
+                    <next>
+                      <block type="mccreate" id="gSL)A[b;go-XD08qo_lA">
+                        <next>
+                          <block type="equalsblock" id="pk7YSjVBhy;ei:KR-===">
+                            <field name="1">BlockID</field>
+                            <field name="2">35</field>
+                            <next>
+                              <block type="whileout" id="Xee=qV|?zk8@*5cAoBD_">
+                                <field name="1">True</field>
+                                <statement name="DO">
+                                  <block type="mcvar" id="Pjr_cy=Eq~S=X^1jK^EA">
+                                    <next>
+                                      <block type="if" id="EZeZWEqm{3d4RM*F486L">
+                                        <field name="var">one_in(2)</field>
+                                        <statement name="DO">
+                                          <block type="equalsblock" id="?)]SoWq9W~q.wN:lr64:">
+                                            <field name="1">RandomWool</field>
+                                            <field name="2">random.randint(1,15)</field>
+                                            <next>
+                                              <block type="mctext5" id="Pu/4t:fhn_[!T]V/p5^]">
+                                                <field name="x">x</field>
+                                                <field name="y">y-1</field>
+                                                <field name="z">z</field>
+                                                <field name="p">RandomWool</field>
+                                                <field name="i">BlockID</field>
+                                                <next>
+                                                  <block type="sampleson" id=",3-iF5myCI0Ane;]?F66">
+                                                    <field name="name">LOOP_AMEN</field>
+                                                    <next>
+                                                      <block type="sleep" id="nKHU6aOU{fM;zoOx@[MR">
+                                                        <field name="sleepTime">1.8</field>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="else" id="N#/EFeL:xc-DI#TB%ytk">
+                                            <statement name="DO">
+                                              <block type="sampleson" id="Y|BEVukxmM+EYRl*d|Yb">
+                                                <field name="name">DRUM_CYMBAL_CLOSED</field>
+                                                <next>
+                                                  <block type="sleep" id="}o8?t=Nb{IEk@S`}nCed">
+                                                    <field name="sleepTime">0.7</field>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
